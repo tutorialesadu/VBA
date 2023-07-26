@@ -9,4 +9,5 @@ Sub Macro1()
         "C:\Users\admin\Desktop\Localitate.pdf", Quality:=xlQualityStandard, _
         IncludeDocProperties:=True, IgnorePrintAreas:=False, OpenAfterPublish:= _
         True
+    Range("L25").Select
 End Sub
