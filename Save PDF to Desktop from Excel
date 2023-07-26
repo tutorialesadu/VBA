@@ -1,0 +1,12 @@
+Sub Macro1()
+'
+' Macro1 Macro
+'
+
+'
+    ChDir "C:\Users\admin\Desktop"
+    ActiveSheet.ExportAsFixedFormat Type:=xlTypePDF, Filename:= _
+        "C:\Users\admin\Desktop\Localitate.pdf", Quality:=xlQualityStandard, _
+        IncludeDocProperties:=True, IgnorePrintAreas:=False, OpenAfterPublish:= _
+        True
+End Sub
